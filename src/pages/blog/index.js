@@ -5,6 +5,7 @@ import Layout from "../../components/layout";
 const BlogPage = ({ data }) => {
   return (
     <Layout pageTitle="My Blog Posts">
+      <p>This is were the project documentation will come.</p>
       {data.allMdx.nodes.map((node) => (
         <article key={node.id}>
           <h2>
